@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f9fb;
+    color: #333;
+}
+
+header {
+    background: #b30000;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.tagline {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.hero button {
+    background: #b30000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.gray {
+    background: #eef2f5;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #b30000;
+}
+
+.card.highlight {
+    border-left: 5px solid gold;
+}
+
+.source {
+    font-size: 12px;
+    color: gray;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.grid span {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+disclaimer {
+    font-size: 13px;
+    color: #555;
+}
